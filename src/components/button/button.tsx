@@ -13,7 +13,7 @@ interface ButtonProps {
   disabled?: boolean;
 }
 
-const ButtonT: React.FC<ButtonProps> = ({
+const Button: React.FC<ButtonProps> = ({
   children,
   icon,
   onClick,
@@ -60,4 +60,4 @@ const ButtonT: React.FC<ButtonProps> = ({
   );
 };
 
-export default ButtonT;
+export default Button;
