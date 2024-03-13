@@ -65,7 +65,9 @@ const LoginPage = () => {
                 )}
               </button>
               <span
-                className={`inline-block textSM font-semibold  ${persistLogin ? "text-gray600" : "text-gray400"}`}
+                className={`inline-block textSM font-semibold  ${
+                  persistLogin ? "text-gray600" : "text-gray400"
+                }`}
               >
                 로그인 상태 유지
               </span>
